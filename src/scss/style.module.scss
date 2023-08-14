@@ -21,6 +21,14 @@ h3{
     color:var(--text-white);
 }
 
+p, a, div, li, ul{
+    color: var(--text-white);
+}
+
+a {
+    text-decoration: none;
+}
+
 @media (max-width:1024px) {
     h1{
         font-size: var(--size-h1--1024);
