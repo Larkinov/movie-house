@@ -8,80 +8,24 @@
     font-family: "Montserrat";
 }
 
-.titleH1{
+h1{
     font-size: var(--size-h1);
     color:var(--text-white);
 }
-.titleH2{
+h2{
     font-size: var(--size-h2);
     color:var(--text-white);
 }
-.titleH3{
+h3{
     font-size: var(--size-h3);
     color:var(--text-white);
 }
-.titleGrayH1{
-    font-size: var(--size-h1);
-    color:var(--text-gray);
-}
-.titleGrayH2{
-    font-size: var(--size-h2);
-    color:var(--text-gray);
-}
-.titleGrayH3{
-    font-size: var(--size-h3);
-    color:var(--text-gray);
-}
-
-.textLarge{
-    font-size: var(--size-text-large);
-    color:var(--text-white);
-}
-.textNormal{
-    font-size: var(--size-text-normal);
-    color:var(--text-white);
-}
-.textSmall{
-    font-size: var(--size-text-small);
-    color:var(--text-white);
-}
-.textGrayLarge{
-    font-size: var(--size-text-large);
-    color:var(--text-gray);
-}
-.textGrayNormal{
-    font-size: var(--size-text-normal);
-    color:var(--text-gray);
-}
-.textGraySmall{
-    font-size: var(--size-text-small);
-    color:var(--text-gray);
-}
-
-.gray{
-    background-color: var(--background-black);
-    height: 100vh;
-}
-
 
 @media (max-width:1024px) {
-    .titleH1{
+    h1{
         font-size: var(--size-h1--1024);
     }
-    .titleGrayH1{
-        font-size: var(--size-h1--1024);
-    }
-    .titleGrayH2{
+    h2{
         font-size: var(--size-h2--1024);
-    }
-    .titleH2{
-        font-size: var(--size-h2--1024);
-    }
-
-    .textLarge{
-        font-size: var(--size-text-large--1024);
-    }
-    .textGrayLarge{
-        font-size: var(--size-text-large--1024);
     }
 }
