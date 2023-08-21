@@ -6,7 +6,10 @@ import ErrorPage from "./pages/ErrorPage";
 import Films from "./routes/Films";
 import Cartoons from "./routes/Cartoons";
 import Serials from "./routes/Serials";
+<<<<<<< HEAD
 import Home from "./routes/Home";
+=======
+>>>>>>> b94b4ac93a638a9cea30bdf97c00d1d4d675210d
 
 const router = createBrowserRouter([
   {
@@ -15,11 +18,15 @@ const router = createBrowserRouter([
     errorElement:<ErrorPage/>,
     children:[
       {
+<<<<<<< HEAD
         path:"/home",
         element:<Home/>
       },
       {
         path:"/films",
+=======
+        path:"films",
+>>>>>>> b94b4ac93a638a9cea30bdf97c00d1d4d675210d
         element:<Films/>
       },
       {
