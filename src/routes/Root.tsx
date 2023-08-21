@@ -34,7 +34,7 @@ const Root: React.FC = function () {
             </li>
           </ul>
           <Outlet />
-          <footer>footer</footer>
+          <footer>footers</footer>
         </div>
       </div>
     </>
